@@ -1,22 +1,22 @@
 package com.matheuscordeiro.node;
 
-public class Node {
-    private String content;
-    private Node nextNode;
+public class Node<T> {
+    private T content;
+    private Node<T> nextNode;
 
     public Node() {
 
     }
 
-    public Node(String content) {
+    public Node(T content) {
         this.content = content;
     }
 
-    public String getContent() {
+    public T getContent() {
         return content;
     }
 
-    public void setContent(String content) {
+    public void setContent(T content) {
         this.content = content;
     }
 

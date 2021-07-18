@@ -4,16 +4,16 @@ public class Main {
     public static void main(String[] args) {
         //node1 -> node2 -> node3 -> node4 -> null
 
-        Node node1 = new Node("Content node one");
-        Node node2 = new Node("Content node two");
+        Node<String> node1 = new Node<>("Content node one");
+        Node<String> node2 = new Node<>("Content node two");
 
         node1.setNextNode(node2);
 
-        Node node3 = new Node("Content node three");
+        Node<String> node3 = new Node<>("Content node three");
 
         node2.setNextNode(node3);
 
-        Node node4 = new Node("Content node four");
+        Node<String> node4 = new Node<>("Content node four");
 
         node3.setNextNode(node4);
 
