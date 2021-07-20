@@ -2,7 +2,7 @@ package com.matheuscordeiro.queue;
 
 public class Main {
     public static void main(String[] args) {
-        Queue<String> queue = new Queue<>();
+        Queue queue = new Queue();
         queue.enqueue("First");
         queue.enqueue("Second");
         queue.enqueue("Third");
