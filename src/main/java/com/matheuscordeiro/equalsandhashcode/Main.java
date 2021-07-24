@@ -4,13 +4,15 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Main {
-    List<Car> cars = new ArrayList<>();
+    public static void main(String[] args) {
+        List<Car> cars = new ArrayList<>();
 
-    cars.add(new Carro("Ford"));
-    cars.add(new Carro("Chevrolet"));
-    cars.add(new Carro("Volkswagen"));
+        cars.add(new Car("Ford"));
+        cars.add(new Car("Chevrolet"));
+        cars.add(new Car("Volkswagen"));
 
-    System.out.println(cars.contains(new Carro("Ford")));
-    System.out.println(new Carro("Ford").hashCode());
-    System.out.println(new Carro("Ford").hashCode());
+        System.out.println(cars.contains(new Car("Ford")));
+        System.out.println(new Car("Ford").hashCode());
+        System.out.println(new Car("Ford").hashCode());
+    }
 }
