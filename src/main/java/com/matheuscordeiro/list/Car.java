@@ -1,4 +1,4 @@
-package com.matheuscordeiro.stackinjava;
+package com.matheuscordeiro.list;
 
 import java.util.Objects;
 
