@@ -62,7 +62,7 @@ public class BinaryTree<T extends Comparable<T>> {
         }
     }
 
-    public void remover(T content){
+    public void remove(T content){
         try{
             BinaryNode<T> current = this.root;
             BinaryNode<T> father = null;
